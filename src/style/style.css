@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    height: 100vh;
+    background-image: url(/src/img/home-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#navbarResponsive .nav-link {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+#navbarResponsive {
+    text-transform: uppercase;
+}
+
+.logo span {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#video {
+    background-image: url(/src/img/about-background.png);
+}
