@@ -2,7 +2,6 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-
 }
 
 main {
@@ -18,6 +17,20 @@ header {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+.header hr {
+    max-width: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid #00e0d0;
+    width: 100%;
+
 }
 
 #navbarResponsive .nav-link {
@@ -26,14 +39,49 @@ header {
 }
 
 #navbarResponsive {
-    text-transform: uppercase;
+    text-transform: uppercase;   
 }
 
+
 .logo span {
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	background: linear-gradient(to right, #30CFD0 0%, #4aa3cc 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.header h1 {
+    font-size: 31px;
+    font-weight: 900;
+}
+
+.header p {
+    font-weight: 300;
+    margin-bottom: 7%;
+}
+
+.default-btn {
+    text-transform: uppercase;
+    color: #00e0d0;
+    background-color: transparent;
+    border: solid 1px #00e0d0;
+    border-radius: 2px;
+    padding: 0.5rem 0.5rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    font-size: 16px;
+    outline: 0;
+}
 
 #about {
     display: flex;
@@ -43,3 +91,5 @@ header {
 #video {
     background-image: url(/src/img/about-background.png);
 }
+
+
